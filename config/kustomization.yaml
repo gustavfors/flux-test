@@ -1,2 +1,3 @@
 resources:
   - my-configs
+  - global-vars.yaml
