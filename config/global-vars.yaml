@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: global-vars
+  name: globalvars
   namespace: flux-system
 data:
-  oamSiteDomainName: "example.com"
+  justatest: "example.com"

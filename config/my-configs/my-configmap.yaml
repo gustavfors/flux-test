@@ -4,4 +4,4 @@ metadata:
   name: my-configmap
   namespace: flux-system
 data:
-  someKey: https://api.essvt.${oamSiteDomainName}
+  someKey: https://api.essvt.${justatest}
