@@ -7,3 +7,4 @@ metadata:
     someLabel: "${oamSiteDomainName}"
 data:
   someKey: https://api.essvt.${oamSiteDomainName}
+  someDomain: ${cluster_env:=dev}
