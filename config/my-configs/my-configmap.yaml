@@ -4,6 +4,6 @@ metadata:
   name: my-configmap
   namespace: flux-system
   labels:
-    someLabel: ${oamSiteDomainName}
+    someLabel: "${oamSiteDomainName}"
 data:
   someKey: https://api.essvt.${oamSiteDomainName}
