@@ -3,6 +3,8 @@ kind: ConfigMap
 metadata:
   name: my-configmap
   namespace: flux-system
+  labels:
+    kustomize.toolkit.fluxcd.io/substitute: enabled
 data:
   someKey: https://api.essvt.${oamSiteDomainName}
   someDomain: ${cluster_env:=dev}
