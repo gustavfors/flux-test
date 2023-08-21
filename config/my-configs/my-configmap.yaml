@@ -3,5 +3,7 @@ kind: ConfigMap
 metadata:
   name: my-configmap
   namespace: flux-system
+  labels:
+    test: ${justatest}
 data:
   someKey: https://api.essvt.${justatest}
