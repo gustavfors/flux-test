@@ -1,3 +1,2 @@
 resources:
   - my-configmap.yaml
-  - my-config-kustomization.yaml
