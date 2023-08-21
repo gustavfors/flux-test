@@ -4,4 +4,4 @@ metadata:
   name: my-configmap
   namespace: default
 data:
-  someKey: "someValue"
+  someKey: https://api.essvt.${oamSiteDomainName}

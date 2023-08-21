@@ -1,0 +1,13 @@
+apiVersion: kustomize.toolkit.fluxcd.io/v1
+kind: Kustomization
+metadata:
+  name: my-kustomize-apps
+  namespace: default
+spec:
+  interval: 1m
+  path: "./my-configs/"
+  postBuild:
+    substituteFrom:
+      - kind: ConfigMap
+        name: global-vars
+        optional: true
