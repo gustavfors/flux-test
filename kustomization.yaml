@@ -1,4 +1,0 @@
-resources:
-  - my-configs
-  - my-kustomization.yaml
-  - global-vars.yaml
