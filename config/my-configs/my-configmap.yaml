@@ -3,8 +3,6 @@ kind: ConfigMap
 metadata:
   name: my-configmap
   namespace: flux-system
-  labels:
-    someLabel: "${oamSiteDomainName}"
 data:
   someKey: https://api.essvt.${oamSiteDomainName}
   someDomain: ${cluster_env:=dev}
